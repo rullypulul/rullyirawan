@@ -161,6 +161,7 @@ td.tdlist {
     background-color: #f7f7f7 !important;
     background-color: transparent !important;
     backdrop-filter: blur(100px) brightness(90%);
+      -webkit-backdrop-filter: blur(100px) brightness(90%);
     
     
 
@@ -211,7 +212,6 @@ td.tdlist {
 
 
 .modal-body {
-/*    padding-top: 0px !important;*/
     margin-right: 10px;
     margin-left: 10px;
     
