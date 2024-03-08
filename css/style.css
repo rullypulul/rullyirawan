@@ -109,10 +109,16 @@ display: flex;
 
 }
 
-.offcanvas-header {
-    padding-top: 10px !important ;
-    padding-bottom: 10px !important;
+.btn-close{
+    margin-top: -24px !important;
 }
+
+.offcanvas-header {
+/*    padding-top: 10px !important ;*/
+/*    padding-bottom: 10px !important;*/
+}
+
+
 
 .offcanvas-body {
     padding-top: 0px !important;
@@ -142,7 +148,13 @@ display: flex;
     padding-right: none !important;
     margin-left: none !important;
 
+
+
     
+}
+
+th.theader {
+    padding-left: 40px !important;
 }
 
 td.tdlist {
@@ -310,6 +322,10 @@ p.description {
     padding-left: 10px !important;
     padding-top: 5px !important;
     
+}
+
+.grad{
+    width: 100%;
 }
 
 
