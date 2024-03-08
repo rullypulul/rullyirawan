@@ -72,7 +72,7 @@ display: flex;
     opacity: 0 !important;
     filter:alpha(opacity=0); /* IE support */
     width: 50%;
-    height: 90%;
+    height: 100%;
     
     
 }
