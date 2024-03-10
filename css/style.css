@@ -164,6 +164,11 @@ th.theader {
 
 td.tdlist {
     padding-right: 20px !important;
+    vertical-align: top;
+}
+
+td {
+  text-align: left !important;
 }
 
 
