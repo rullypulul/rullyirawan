@@ -314,6 +314,16 @@ p.descriptionbottom {
     
 }
 
+p#copyright {
+    padding-right: 14px !important;
+    padding-top: 10px;
+    position: relative;
+    text-align: right;
+    color: #000; /* Fallback for older browsers */
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+
 
 
 
@@ -350,6 +360,7 @@ p.description {
     padding-right: 0px !important;
     padding-left: 10px !important;
     padding-top: 5px !important;
+
     
 }
 
@@ -394,5 +405,20 @@ p.description {
 }
 
 
+p#copyright {
+    padding-right: 14px !important;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    color: #000; /* Fallback for older browsers */
+    color: rgba(0, 0, 0, 0.5);
+    
 }
+
+
+
+}
+
+
 
