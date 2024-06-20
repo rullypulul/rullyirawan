@@ -42,7 +42,7 @@
                   <ul class="nav navbar-light">
                     
                     <li class="nav-item">
-                      <a class="nav-link info" data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#">Rully Irawan</a>
+                      <a class="nav-link info" data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#" id="words">Rully Irawan</a>
                     </li>
 
                     <li class="nav-item">
@@ -53,6 +53,8 @@
                   </ul>
 
             </nav>
+
+            
 
 
 
@@ -69,7 +71,7 @@
         <!-- <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5> --><ul class="nav navbar-light">
         
         <li class="nav-item">
-          <a class="nav-link">Rully Irawan</a>
+          <a class="nav-link">Hey there!</a>
         </li>
 
 
@@ -2168,6 +2170,16 @@ $(document).ready(function () {
         target: ".offcanvas", offset: 60 
       }); 
     }); 
+
+      
+
+      (function () {
+        var words = ["Rully Irawan","About me" ],
+        i = 0;
+        setInterval(function(){ $('#words').fadeOut(function(){
+            $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
+          }); }, 3000)
+      })();
 
 
 
